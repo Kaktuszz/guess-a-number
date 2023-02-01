@@ -91,28 +91,3 @@ def random_checker(a):
 
 
 game()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# if a[0] == 0:
-    #     a[0] += 1
-    # if a[0] == a[1]:
-    #     while a[0] == a[1]:
-    #         a[1] = random.randrange(0,10)
-    # if a[0] == a[2]:
-    #     while a[0] == a[2]:
-    #         a[2] = random.randrange(0,10)
-    # if a[1] == a[2]:
-    #     while a[0] == a[2] or a[1] == a[2]:
-    #         a[2] = random.randrange(0,10)
