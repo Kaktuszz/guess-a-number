@@ -1,22 +1,13 @@
 import random
 
 def game():
-    # Array creator and random number generator
+    # Array creator
     a = [0, 0, 0]
     i = 0
     while i != 3:
         a[i] = random.randrange(0,10)
         i += 1
-
-    # if a[0] == 0:
-    #     a[0] += 1
-    # if a[0] == a[1] or a[0] == a[2] or a[1] == a[2]:
-    #     while a[0] == a[1]:
-    #         a[1] = random.randrange(0,10)
-    #     while a[0] == a[2]:
-    #         a[2] = random.randrange(0,10)
-    #     while a[0] == a[2] or a[1] == a[2]:
-    #         a[2] = random.randrange(0,10)
+        
     a = random_checker(a)
 
     print("WELCOME TO THE GREAT GAME! I guessed a three-digit number, guess it and get a reward!")
